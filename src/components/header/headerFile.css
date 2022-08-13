@@ -1,0 +1,63 @@
+.headerFile{
+    margin: 0 0.8rem;
+}
+
+.headerFile h2{
+    margin: 0;
+    padding-top: 0px;
+    text-align: center;
+    animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {
+    0% {
+        color: yellow;
+        -webkit-transform: rotateY(0deg)
+    }
+    50% {
+        color: lightgreen;
+        -webkit-transform: rotateY(90deg)
+    }
+    100% {
+        color: lightpink;
+        -webkit-transform: rotateY(0deg)
+    }
+}
+
+/*-------------------------- Navigation----------------------- */
+.navigation{
+    background-color: blue;
+    display: flex;
+}
+
+.navigation h1{
+    margin: 0;
+    padding: 0.5rem 1rem 0rem;
+    width: 65%;
+    color:gold;
+}
+
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    width: 20%;
+    margin: 0.6rem;
+}
+
+.navigation ul li{
+    margin: 0.5rem 0.8rem;
+}
+
+.navigation-anchor{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*-------------------------- Weather ----------------------- */
+.weather{
+    width: 10%;
+}
+
+.weather h3{
+   margin: 0.6rem;
+}

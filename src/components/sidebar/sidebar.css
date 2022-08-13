@@ -1,0 +1,17 @@
+.sidebar{
+    width: 20%;
+    border: 1px solid black;
+
+    height: 29.5rem;
+    background-color: lightsteelblue;
+}
+
+.sidebar-image h3{
+    position: absolute;
+    z-index: 1;
+    margin: 0.4rem;
+}
+
+.sidebar-image img{
+    width: 100%;
+}

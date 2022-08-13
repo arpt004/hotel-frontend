@@ -1,8 +1,15 @@
 import React from 'react'
+import './sidebar.css'
 
 const Sidebar = () => {
   return (
-    <div>Sidebar</div>
+    <div className='sidebar'>
+      
+      <div className='sidebar-image'>
+        <h3> Shikharji </h3>
+        <img src='images/parashnath_tonk.jpg' alt='parashnath_tonk'/> 
+      </div>
+    </div>
   )
 }
 
